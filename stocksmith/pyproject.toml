@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "stocksmith"
+version = "0.1.0.1"
+description = "Automated tools for stock analysis."
+authors = ["Saakshaat <saakshaat2001@gmail.com>"]
+maintainers = ["Saakshaat <saakshaat2001@gmail.com>"]
+repository = "https://github.com/stocksmith/stocksmith/"
+
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pendulum = "^2.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
